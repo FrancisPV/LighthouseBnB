@@ -5,9 +5,9 @@ VALUES ('Francis', 'francispellerinvenne@hotmail.fr', '$2a$10$FB/BOAVhpuLvpOREQV
 ('Anna', 'anna@jolie.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
 INSERT INTO properties (owner_id, title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code, active)
-VALUES (1, 'Le chalet', 'description', 'https://www.chaletsalouer.com/images/site/facebook.jpg', 'https://www.chaletsalouer.com/images/site/facebook.jpg', 500, 2, 3, 8, 'Canada', 'Bois-perdu', 'Bois-briand', 'Québec', 'H5D 7G8', TRUE),
-(1, 'Le deuxieme chalet', 'description', 'https://www.monsieurchalets.com/swserve/site_assets/site9954/properties/34563/images/themed/search-thumb-Chaletsalouer.com00001.jpg', 'https://www.monsieurchalets.com/swserve/site_assets/site9954/properties/34563/images/themed/search-thumb-Chaletsalouer.com00001.jpg', 600, 3, 2, 8, 'Canada', 'perdu perdu', 'La cité perdu', 'Québec', 'K9J 8G6', TRUE),
-(1, 'Le troisieme', 'description', 'https://storage.googleapis.com/everest-static/fiddlerlakeresort/7/chalet-a-louer-laurentides-castor-as01.jpeg?1507751711465', 'https://storage.googleapis.com/everest-static/fiddlerlakeresort/7/chalet-a-louer-laurentides-castor-as01.jpeg?1507751711465', 350, 4, 1, 6, 'Canada', 'Encore plus loin', 'La cité perdu', 'Québec', 'K9J 8G7', TRUE);
+VALUES (1, 'Le chalet', 'description', 'https://www.chaletsalouer.com/images/site/facebook.jpg', 'https://www.chaletsalouer.com/images/site/facebook.jpg', 50000, 2, 3, 8, 'Canada', 'Bois-perdu', 'Bois-briand', 'Québec', 'H5D 7G8', TRUE),
+(1, 'Le deuxieme chalet', 'description', 'https://www.monsieurchalets.com/swserve/site_assets/site9954/properties/34563/images/themed/search-thumb-Chaletsalouer.com00001.jpg', 'https://www.monsieurchalets.com/swserve/site_assets/site9954/properties/34563/images/themed/search-thumb-Chaletsalouer.com00001.jpg', 60000, 3, 2, 8, 'Canada', 'perdu perdu', 'La cité perdu', 'Québec', 'K9J 8G6', TRUE),
+(1, 'Le troisieme chalet', 'description', 'https://storage.googleapis.com/everest-static/fiddlerlakeresort/7/chalet-a-louer-laurentides-castor-as01.jpeg?1507751711465', 'https://storage.googleapis.com/everest-static/fiddlerlakeresort/7/chalet-a-louer-laurentides-castor-as01.jpeg?1507751711465', 35000, 4, 1, 6, 'Canada', 'Encore plus loin', 'La cité perdu', 'Québec', 'K9J 8G7', TRUE);
 
 
 INSERT INTO reservations (guest_id, property_id, start_date, end_date) 
